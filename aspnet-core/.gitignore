@@ -254,3 +254,7 @@ paket-files/
 src/C10.Web.Mvc/secrets.json
 src/C10.Web.Host/secrets.json
 src/C10.Migrator/secrets.json
+
+
+# ABP Studio
+**/.abpstudio/

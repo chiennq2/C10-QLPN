@@ -120,5 +120,13 @@
     <text name="403PageHeader">Bị từ chối truy cập</text>
     <text name="403PageDescription">Bạn không có quyền truy cập tài nguyên này. Vui lòng liên hệ quản trị viên.</text>
     <text name="403PageButton">Quay lại Bảng điều khiển</text>
+    <text name="DanhMucPhamNhan">Danh mục phạm nhân</text>
+    <text name="CreateDanhMucPhamNhan">Tạo danh mục phạm nhân</text>
+    <text name="EditDanhMucPhamNhan">Sửa danh mục phạm nhân</text>
+    <text name="Code">Mã</text>
+    <text name="Content">Nội dung</text>
+    <text name="Status">Trạng thái</text>
+    <text name="StatusActive">Hiệu lực</text>
+    <text name="StatusInactive">Hết hiệu lực</text>
   </texts>
 </localizationDictionary>

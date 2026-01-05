@@ -3,6 +3,7 @@ using System;
 using C10.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Oracle.EntityFrameworkCore.Metadata;
 
@@ -11,9 +12,11 @@ using Oracle.EntityFrameworkCore.Metadata;
 namespace C10.Migrations
 {
     [DbContext(typeof(C10DbContext))]
-    partial class C10DbContextModelSnapshot : ModelSnapshot
+    [Migration("20260105064520_AddDanhMucPhamNhan")]
+    partial class AddDanhMucPhamNhan
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

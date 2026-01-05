@@ -39,6 +39,15 @@ import { AppComponent } from './app.component';
                         canActivate: [AppRouteGuard],
                     },
                     {
+                        path: 'danh-muc-pham-nhan',
+                        loadChildren: () =>
+                            import('./danh-muc-pham-nhan/danh-muc-pham-nhan.module').then(
+                                (m) => m.DanhMucPhamNhanModule
+                            ),
+                        data: { permission: 'Pages.DanhMucPhamNhan' },
+                        canActivate: [AppRouteGuard],
+                    },
+                    {
                         path: 'update-password',
                         loadChildren: () => import('./users/users.module').then((m) => m.UsersModule),
                         canActivate: [AppRouteGuard],
