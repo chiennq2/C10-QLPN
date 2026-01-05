@@ -1,0 +1,63 @@
+<form class="form-horizontal" autocomplete="off" #createForm="ngForm" (ngSubmit)="save()">
+    <abp-modal-header
+        [title]="'CreateDanhMucPhamNhan' | localize"
+        (onCloseClick)="bsModalRef.hide()"></abp-modal-header>
+    <div class="modal-body">
+        <div class="form-group row required">
+            <label class="col-md-3 col-form-label" for="code">
+                {{ 'Code' | localize }}
+            </label>
+            <div class="col-md-9">
+                <input
+                    type="text"
+                    class="form-control"
+                    name="code"
+                    id="code"
+                    maxlength="50"
+                    required
+                    [(ngModel)]="item.code"
+                    #codeModel="ngModel"
+                    #codeEl />
+                <abp-validation-summary [control]="codeModel" [controlEl]="codeEl"></abp-validation-summary>
+            </div>
+        </div>
+        <div class="form-group row required">
+            <label class="col-md-3 col-form-label" for="noiDung">
+                {{ 'Content' | localize }}
+            </label>
+            <div class="col-md-9">
+                <input
+                    type="text"
+                    class="form-control"
+                    name="noiDung"
+                    id="noiDung"
+                    maxlength="255"
+                    required
+                    [(ngModel)]="item.noiDung"
+                    #noiDungModel="ngModel"
+                    #noiDungEl />
+                <abp-validation-summary [control]="noiDungModel" [controlEl]="noiDungEl"></abp-validation-summary>
+            </div>
+        </div>
+        <div class="form-group row mb-0">
+            <label class="col-md-3 col-form-label">
+                {{ 'Status' | localize }}
+            </label>
+            <div class="col-md-9">
+                <div class="custom-control custom-checkbox">
+                    <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        name="isActive"
+                        id="isActive"
+                        [(ngModel)]="item.isActive" />
+                    <label class="custom-control-label mt-2" for="isActive"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <abp-modal-footer
+        [cancelDisabled]="saving"
+        [saveDisabled]="!createForm.form.valid || saving"
+        (onCancelClick)="bsModalRef.hide()"></abp-modal-footer>
+</form>
