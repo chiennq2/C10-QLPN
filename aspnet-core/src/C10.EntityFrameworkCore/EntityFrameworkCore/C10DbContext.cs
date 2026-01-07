@@ -31,6 +31,7 @@ using C10.Core.DanhMuc.DM_QuanHeVoiPN;
 using C10.Core.DanhMuc.DM_QuocTich;
 using C10.Core.DanhMuc.DM_TruongHopBat;
 using C10.Core.DanhMuc.DM_XuLyBat;
+using C10.DanhMuc.DM_DuocDacXa;
 using C10.DanhMuc.DM_SinhConTheoMeVaoTrai;
 using C10.DanhMuc.DM_TaiPham;
 using C10.DanhMuc.DM_TinhTrangConTheoMeVaoTrai;
@@ -96,6 +97,7 @@ public class C10DbContext : AbpZeroDbContext<Tenant, Role, User, C10DbContext>
     DbSet<DM_TinhTrangTamDinhChi> DM_TinhTrangTamDinhChis { get; set; }
     DbSet<DM_TonGiao> DM_TonGiaos { get; set; }
     DbSet<DM_XepLoaiCaiTao> DM_XepLoaiCaiTaos { get; set; }
+    DbSet<DM_DuocDacXa> DM_DuocDacXas { get; set; } 
     public DbSet<DanhMucPhamNhan> DanhMucPhamNhans { get; set; }
 
     public C10DbContext(DbContextOptions<C10DbContext> options)
