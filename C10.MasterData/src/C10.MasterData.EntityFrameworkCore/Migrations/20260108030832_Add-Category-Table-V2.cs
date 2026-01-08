@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace C10.MasterData.Migrations
 {
     /// <inheritdoc />
-    public partial class AddCategoryTables : Migration
+    public partial class AddCategoryTableV2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -367,28 +367,6 @@ namespace C10.MasterData.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "DM_LOAI_QD_TAM_DINH_CHI",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "NUMBER(10)", nullable: false)
-                        .Annotation("Oracle:Identity", "START WITH 1 INCREMENT BY 1"),
-                    LQDTDC_Ten = table.Column<string>(type: "NVARCHAR2(255)", maxLength: 255, nullable: false),
-                    LQDTDC_Ma = table.Column<string>(type: "NVARCHAR2(50)", maxLength: 50, nullable: false),
-                    LQDTDC_Trang_Thai = table.Column<int>(type: "NUMBER(10)", nullable: false),
-                    CreationTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false),
-                    CreatorUserId = table.Column<long>(type: "NUMBER(19)", nullable: true),
-                    LastModificationTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: true),
-                    LastModifierUserId = table.Column<long>(type: "NUMBER(19)", nullable: true),
-                    IsDeleted = table.Column<bool>(type: "NUMBER(1)", nullable: false),
-                    DeleterUserId = table.Column<long>(type: "NUMBER(19)", nullable: true),
-                    DeletionTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_DM_LOAI_QD_TAM_DINH_CHI", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "DM_LOAI_QUYET_DINH_GIAM_GIU",
                 columns: table => new
                 {
@@ -411,14 +389,14 @@ namespace C10.MasterData.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "DM_LOAI_QUYET_DINH_TAM_DINH_TRI",
+                name: "DM_LOAI_QUYET_DINH_TAM_DINH_CHI",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "NUMBER(10)", nullable: false)
                         .Annotation("Oracle:Identity", "START WITH 1 INCREMENT BY 1"),
-                    LQDTDT_Ten = table.Column<string>(type: "NVARCHAR2(255)", maxLength: 255, nullable: false),
-                    LQDTDT_Ma = table.Column<string>(type: "NVARCHAR2(50)", maxLength: 50, nullable: false),
-                    LQDTDT_Trang_Thai = table.Column<int>(type: "NUMBER(10)", nullable: false),
+                    LQDTDC_Ten = table.Column<string>(type: "NVARCHAR2(255)", maxLength: 255, nullable: false),
+                    LQDTDC_Ma = table.Column<string>(type: "NVARCHAR2(50)", maxLength: 50, nullable: false),
+                    LQDTDC_Trang_Thai = table.Column<int>(type: "NUMBER(10)", nullable: false),
                     CreationTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false),
                     CreatorUserId = table.Column<long>(type: "NUMBER(19)", nullable: true),
                     LastModificationTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: true),
@@ -429,7 +407,7 @@ namespace C10.MasterData.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_DM_LOAI_QUYET_DINH_TAM_DINH_TRI", x => x.Id);
+                    table.PrimaryKey("PK_DM_LOAI_QUYET_DINH_TAM_DINH_CHI", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -496,28 +474,6 @@ namespace C10.MasterData.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_DM_LY_DO_AN_GIAM", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "DM_LY_DO_DINH_CHI",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "NUMBER(10)", nullable: false)
-                        .Annotation("Oracle:Identity", "START WITH 1 INCREMENT BY 1"),
-                    LDDC_Ten = table.Column<string>(type: "NVARCHAR2(50)", maxLength: 50, nullable: false),
-                    LDDC_Ma = table.Column<string>(type: "NVARCHAR2(50)", maxLength: 50, nullable: false),
-                    LDDC_Trang_Thai = table.Column<int>(type: "NUMBER(10)", nullable: false),
-                    CreationTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false),
-                    CreatorUserId = table.Column<long>(type: "NUMBER(19)", nullable: true),
-                    LastModificationTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: true),
-                    LastModifierUserId = table.Column<long>(type: "NUMBER(19)", nullable: true),
-                    IsDeleted = table.Column<bool>(type: "NUMBER(1)", nullable: false),
-                    DeleterUserId = table.Column<long>(type: "NUMBER(19)", nullable: true),
-                    DeletionTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_DM_LY_DO_DINH_CHI", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -919,6 +875,30 @@ namespace C10.MasterData.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "DM_TOI_DANH",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "NUMBER(10)", nullable: false)
+                        .Annotation("Oracle:Identity", "START WITH 1 INCREMENT BY 1"),
+                    TD_Ten = table.Column<string>(type: "NVARCHAR2(255)", maxLength: 255, nullable: false),
+                    TD_Ma = table.Column<string>(type: "NVARCHAR2(50)", maxLength: 50, nullable: false),
+                    TD_Trang_Thai = table.Column<int>(type: "NUMBER(10)", nullable: false),
+                    TD_Chuong = table.Column<string>(type: "NVARCHAR2(50)", maxLength: 50, nullable: true),
+                    TD_Can_Cu = table.Column<string>(type: "NVARCHAR2(255)", maxLength: 255, nullable: true),
+                    CreationTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false),
+                    CreatorUserId = table.Column<long>(type: "NUMBER(19)", nullable: true),
+                    LastModificationTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: true),
+                    LastModifierUserId = table.Column<long>(type: "NUMBER(19)", nullable: true),
+                    IsDeleted = table.Column<bool>(type: "NUMBER(1)", nullable: false),
+                    DeleterUserId = table.Column<long>(type: "NUMBER(19)", nullable: true),
+                    DeletionTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DM_TOI_DANH", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "DM_TON_GIAO",
                 columns: table => new
                 {
@@ -982,6 +962,28 @@ namespace C10.MasterData.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_DM_TRUONG_HOP_CHET", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "DM_TRUONG_HOP_CHUYEN_TRAI",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "NUMBER(10)", nullable: false)
+                        .Annotation("Oracle:Identity", "START WITH 1 INCREMENT BY 1"),
+                    THCT_Ten = table.Column<string>(type: "NVARCHAR2(255)", maxLength: 255, nullable: false),
+                    THCT_Ma = table.Column<string>(type: "NVARCHAR2(50)", maxLength: 50, nullable: false),
+                    THCT_Trang_Thai = table.Column<int>(type: "NUMBER(10)", nullable: false),
+                    CreationTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: false),
+                    CreatorUserId = table.Column<long>(type: "NUMBER(19)", nullable: true),
+                    LastModificationTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: true),
+                    LastModifierUserId = table.Column<long>(type: "NUMBER(19)", nullable: true),
+                    IsDeleted = table.Column<bool>(type: "NUMBER(1)", nullable: false),
+                    DeleterUserId = table.Column<long>(type: "NUMBER(19)", nullable: true),
+                    DeletionTime = table.Column<DateTime>(type: "TIMESTAMP(7)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DM_TRUONG_HOP_CHUYEN_TRAI", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -1147,13 +1149,10 @@ namespace C10.MasterData.Migrations
                 name: "DM_LOAI_PHAN_LOAI");
 
             migrationBuilder.DropTable(
-                name: "DM_LOAI_QD_TAM_DINH_CHI");
-
-            migrationBuilder.DropTable(
                 name: "DM_LOAI_QUYET_DINH_GIAM_GIU");
 
             migrationBuilder.DropTable(
-                name: "DM_LOAI_QUYET_DINH_TAM_DINH_TRI");
+                name: "DM_LOAI_QUYET_DINH_TAM_DINH_CHI");
 
             migrationBuilder.DropTable(
                 name: "DM_LOAI_QUYET_DINH_TRICH_XUAT");
@@ -1163,9 +1162,6 @@ namespace C10.MasterData.Migrations
 
             migrationBuilder.DropTable(
                 name: "DM_LY_DO_AN_GIAM");
-
-            migrationBuilder.DropTable(
-                name: "DM_LY_DO_DINH_CHI");
 
             migrationBuilder.DropTable(
                 name: "DM_LY_DO_KHEN");
@@ -1222,6 +1218,9 @@ namespace C10.MasterData.Migrations
                 name: "DM_TINH_TRANG_TRON");
 
             migrationBuilder.DropTable(
+                name: "DM_TOI_DANH");
+
+            migrationBuilder.DropTable(
                 name: "DM_TON_GIAO");
 
             migrationBuilder.DropTable(
@@ -1229,6 +1228,9 @@ namespace C10.MasterData.Migrations
 
             migrationBuilder.DropTable(
                 name: "DM_TRUONG_HOP_CHET");
+
+            migrationBuilder.DropTable(
+                name: "DM_TRUONG_HOP_CHUYEN_TRAI");
 
             migrationBuilder.DropTable(
                 name: "DM_TRUONG_HOP_MIEN_HINH_PHAT");

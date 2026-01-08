@@ -7,16 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C10.LoaiQDTDT.Dto
+namespace C10.LoaiQDTDC.Dto
 {
-    public class DM_LoaiQDTDTDto : EntityDto<int>
+    public class DM_LoaiQDTDCDto : EntityDto<int>
     {
         [Required]
         [StringLength(MasterDataConsts.MaxTenLength)]
-        public string LQDTDT_Ten { get; set; }
+        public string LQDTDC_Ten { get; set; }
         [Required]
         [StringLength(MasterDataConsts.MaxMaLength)]
-        public string LQDTDT_Ma { get; set; }
-        public int LQDTDT_Trang_Thai { get; set; }
+        public string LQDTDC_Ma { get; set; }
+        public int LQDTDC_Trang_Thai { get; set; }
     }
 }

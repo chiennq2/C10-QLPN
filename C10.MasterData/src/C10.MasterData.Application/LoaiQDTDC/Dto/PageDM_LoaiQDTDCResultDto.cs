@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C10.LoaiQDTDT.Dto
+namespace C10.LoaiQDTDC.Dto
 {
-    public class PageDM_LoaiQDTDTResultDto : PagedResultRequestDto, IShouldNormalize
+    public class PageDM_LoaiQDTDCResultDto : PagedResultRequestDto, IShouldNormalize
     {
         public string Keyword { get; set; }
 
@@ -17,7 +17,7 @@ namespace C10.LoaiQDTDT.Dto
         {
             if (string.IsNullOrEmpty(Sorting))
             {
-                Sorting = "LQDTDT_Ma";
+                Sorting = "LQDTDC_Ma";
             }
 
             Keyword = Keyword?.Trim();

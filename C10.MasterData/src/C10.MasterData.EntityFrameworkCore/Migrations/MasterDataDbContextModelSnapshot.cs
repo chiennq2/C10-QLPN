@@ -744,54 +744,7 @@ namespace C10.MasterData.Migrations
                     b.ToTable("DM_LOAI_PHAN_LOAI");
                 });
 
-            modelBuilder.Entity("C10.MasterData.Domain.DanhMuc.DM_LoaiQDTDT.DM_LoaiQDTDT", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)");
-
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreationTime")
-                        .HasColumnType("TIMESTAMP(7)");
-
-                    b.Property<long?>("CreatorUserId")
-                        .HasColumnType("NUMBER(19)");
-
-                    b.Property<long?>("DeleterUserId")
-                        .HasColumnType("NUMBER(19)");
-
-                    b.Property<DateTime?>("DeletionTime")
-                        .HasColumnType("TIMESTAMP(7)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("NUMBER(1)");
-
-                    b.Property<string>("LQDTDT_Ma")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("NVARCHAR2(50)");
-
-                    b.Property<string>("LQDTDT_Ten")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("NVARCHAR2(255)");
-
-                    b.Property<int>("LQDTDT_Trang_Thai")
-                        .HasColumnType("NUMBER(10)");
-
-                    b.Property<DateTime?>("LastModificationTime")
-                        .HasColumnType("TIMESTAMP(7)");
-
-                    b.Property<long?>("LastModifierUserId")
-                        .HasColumnType("NUMBER(19)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("DM_LOAI_QUYET_DINH_TAM_DINH_TRI");
-                });
-
-            modelBuilder.Entity("C10.MasterData.Domain.DanhMuc.DM_LoaiQDTamDinhChi.DM_LoaiQDTamDinhChi", b =>
+            modelBuilder.Entity("C10.MasterData.Domain.DanhMuc.DM_LoaiQDTDC.DM_LoaiQDTDC", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -835,7 +788,7 @@ namespace C10.MasterData.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("DM_LOAI_QD_TAM_DINH_CHI");
+                    b.ToTable("DM_LOAI_QUYET_DINH_TAM_DINH_CHI");
                 });
 
             modelBuilder.Entity("C10.MasterData.Domain.DanhMuc.DM_LoaiQuyetDinhGiamGiu.DM_LoaiQuyetDinhGiamGiu", b =>
@@ -1024,53 +977,6 @@ namespace C10.MasterData.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("DM_LY_DO_AN_GIAM");
-                });
-
-            modelBuilder.Entity("C10.MasterData.Domain.DanhMuc.DM_LyDoDinhChi.DM_LyDoDinhChi", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)");
-
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreationTime")
-                        .HasColumnType("TIMESTAMP(7)");
-
-                    b.Property<long?>("CreatorUserId")
-                        .HasColumnType("NUMBER(19)");
-
-                    b.Property<long?>("DeleterUserId")
-                        .HasColumnType("NUMBER(19)");
-
-                    b.Property<DateTime?>("DeletionTime")
-                        .HasColumnType("TIMESTAMP(7)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("NUMBER(1)");
-
-                    b.Property<string>("LDDC_Ma")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("NVARCHAR2(50)");
-
-                    b.Property<string>("LDDC_Ten")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("NVARCHAR2(50)");
-
-                    b.Property<int>("LDDC_Trang_Thai")
-                        .HasColumnType("NUMBER(10)");
-
-                    b.Property<DateTime?>("LastModificationTime")
-                        .HasColumnType("TIMESTAMP(7)");
-
-                    b.Property<long?>("LastModifierUserId")
-                        .HasColumnType("NUMBER(19)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("DM_LY_DO_DINH_CHI");
                 });
 
             modelBuilder.Entity("C10.MasterData.Domain.DanhMuc.DM_LyDoGiamRPN.DM_LyDoGiamRPN", b =>
@@ -1925,6 +1831,61 @@ namespace C10.MasterData.Migrations
                     b.ToTable("DM_TINH_TRANG_TRON");
                 });
 
+            modelBuilder.Entity("C10.MasterData.Domain.DanhMuc.DM_ToiDanh.DM_ToiDanh", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("TIMESTAMP(7)");
+
+                    b.Property<long?>("CreatorUserId")
+                        .HasColumnType("NUMBER(19)");
+
+                    b.Property<long?>("DeleterUserId")
+                        .HasColumnType("NUMBER(19)");
+
+                    b.Property<DateTime?>("DeletionTime")
+                        .HasColumnType("TIMESTAMP(7)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("NUMBER(1)");
+
+                    b.Property<DateTime?>("LastModificationTime")
+                        .HasColumnType("TIMESTAMP(7)");
+
+                    b.Property<long?>("LastModifierUserId")
+                        .HasColumnType("NUMBER(19)");
+
+                    b.Property<string>("TD_Can_Cu")
+                        .HasMaxLength(255)
+                        .HasColumnType("NVARCHAR2(255)");
+
+                    b.Property<string>("TD_Chuong")
+                        .HasMaxLength(50)
+                        .HasColumnType("NVARCHAR2(50)");
+
+                    b.Property<string>("TD_Ma")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("NVARCHAR2(50)");
+
+                    b.Property<string>("TD_Ten")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("NVARCHAR2(255)");
+
+                    b.Property<int>("TD_Trang_Thai")
+                        .HasColumnType("NUMBER(10)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DM_TOI_DANH");
+                });
+
             modelBuilder.Entity("C10.MasterData.Domain.DanhMuc.DM_TonGiao.DM_TonGiao", b =>
                 {
                     b.Property<int>("Id")
@@ -2064,6 +2025,53 @@ namespace C10.MasterData.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("DM_TRUONG_HOP_CHET");
+                });
+
+            modelBuilder.Entity("C10.MasterData.Domain.DanhMuc.DM_TruongHopChuyenTrai.DM_TruongHopChuyenTrai", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreationTime")
+                        .HasColumnType("TIMESTAMP(7)");
+
+                    b.Property<long?>("CreatorUserId")
+                        .HasColumnType("NUMBER(19)");
+
+                    b.Property<long?>("DeleterUserId")
+                        .HasColumnType("NUMBER(19)");
+
+                    b.Property<DateTime?>("DeletionTime")
+                        .HasColumnType("TIMESTAMP(7)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("NUMBER(1)");
+
+                    b.Property<DateTime?>("LastModificationTime")
+                        .HasColumnType("TIMESTAMP(7)");
+
+                    b.Property<long?>("LastModifierUserId")
+                        .HasColumnType("NUMBER(19)");
+
+                    b.Property<string>("THCT_Ma")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("NVARCHAR2(50)");
+
+                    b.Property<string>("THCT_Ten")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("NVARCHAR2(255)");
+
+                    b.Property<int>("THCT_Trang_Thai")
+                        .HasColumnType("NUMBER(10)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DM_TRUONG_HOP_CHUYEN_TRAI");
                 });
 
             modelBuilder.Entity("C10.MasterData.Domain.DanhMuc.DM_TruongHopMienHinhPhat.DM_TruongHopMienHinhPhat", b =>

@@ -13,11 +13,10 @@ using C10.MasterData.Domain.DanhMuc.DM_HinhThucKyLuat;
 using C10.MasterData.Domain.DanhMuc.DM_HocVan;
 using C10.MasterData.Domain.DanhMuc.DM_KyXepLoaiCaiTao;
 using C10.MasterData.Domain.DanhMuc.DM_LoaiPhanLoai;
-using C10.MasterData.Domain.DanhMuc.DM_LoaiQDTDT;
+using C10.MasterData.Domain.DanhMuc.DM_LoaiQDTDC;
 using C10.MasterData.Domain.DanhMuc.DM_LoaiQuyetDinhTrichXuat;
 using C10.MasterData.Domain.DanhMuc.DM_LoaiTangGiamHinhPhat;
 using C10.MasterData.Domain.DanhMuc.DM_LyDoAnGiam;
-using C10.MasterData.Domain.DanhMuc.DM_LyDoDinhChi;
 using C10.MasterData.Domain.DanhMuc.DM_LyDoGiamRPN;
 using C10.MasterData.Domain.DanhMuc.DM_LyDoKhen;
 using C10.MasterData.Domain.DanhMuc.DM_LyDoKhongXetGiam;
@@ -47,8 +46,9 @@ using C10.MasterData.Domain.DanhMuc.DM_XuLyBat;
 using C10.MasterData.DungChung;
 using Microsoft.EntityFrameworkCore;
 using C10.MasterData.Domain.DanhMuc.DM_LoaiQuyetDinhGiamGiu;
-using C10.MasterData.Domain.DanhMuc.DM_LoaiQDTamDinhChi;
 using C10.MasterData.Domain.DanhMuc.DM_LyDoTamDinhChi;
+using C10.MasterData.Domain.DanhMuc.DM_TruongHopChuyenTrai;
+using C10.MasterData.Domain.DanhMuc.DM_ToiDanh;
 
 namespace C10.MasterData.EntityFrameworkCore;
 
@@ -66,15 +66,17 @@ public class MasterDataDbContext : AbpDbContext
     public DbSet<DM_XuLyBat> DM_XuLyBats { get; set; }
     public DbSet<DM_HocVan> DM_HocVans { get; set; }
     public DbSet<DM_KyXepLoaiCaiTao> DM_KyXepLoaiCaiTaos { get; set; }
+    public DbSet<DM_LoaiQuyetDinhGiamGiu> DM_LoaiQuyetDinhGiamGius { get; set; }
     public DbSet<DM_LoaiQuyetDinhTrichXuat> DM_LoaiQuyetDinhTrichXuats { get; set; }
-    public DbSet<DM_LoaiQDTDT> DM_LoaiQDTDTs { get; set; }
+    public DbSet<DM_LoaiQDTDC> DM_LoaiQDTDCs { get; set; }
     public DbSet<DM_LoaiTangGiamHinhPhat> DM_LoaiTangGiamHinhPhats { get; set; }
+    public DbSet<DM_LoaiPhamNhan> DM_LoaiPhamNhans { get; set; }
     public DbSet<DM_LyDoGiamRPN> DM_LyDoGiamRPNs { get; set; }
     public DbSet<DM_LyDoKhen> DM_LyDoKhens { get; set; }
     public DbSet<DM_LyDoKhongXetGiam> DM_LyDoKhongXetGiams { get; set; }
     public DbSet<DM_LyDoKyLuat> DM_LyDoKyLuats { get; set; }
     public DbSet<DM_LyDoTrichXuat> DM_LyDoTrichXuats { get; set; }
-    public DbSet<DM_LyDoDinhChi> DM_LyDoDinhChis { get; set; }
+    public DbSet<DM_LyDoTamDinhChi> DM_LyDoTamDinhChis { get; set; }
     public DbSet<DM_LyDoAnGiam> DM_LyDoAnGiams { get; set; }
     public DbSet<DM_MaPhanLoai> DM_MaPhanLoais { get; set; }
     public DbSet<DM_QuanHeVoiPN> DM_QuanHeVoiPNs { get; set; }
@@ -82,8 +84,9 @@ public class MasterDataDbContext : AbpDbContext
     public DbSet<DM_LoaiPhanLoai> DM_LoaiPhanLoais { get; set; }
     public DbSet<DM_QuocTich> DM_QuocTiches { get; set; }
     public DbSet<DM_MucAnPhat> DM_MucAnPhats { get; set; }
-    public DbSet<DM_TruongHopBat> DM_TruongHopBats { get; set; }
     public DbSet<DM_DoTuoi> DM_DoTuois { get; set; }
+    public DbSet<DM_TruongHopBat> DM_TruongHopBats { get; set; }
+    public DbSet<DM_TruongHopChuyenTrai> DM_TruongHopChuyenTrais { get; set; }
     public DbSet<DM_TruongHopChet> DM_TruongHopChets { get; set; }
     public DbSet<DM_TruongHopMienHinhPhat> DM_TruongHopMienHinhPhats { get; set; }
     public DbSet<DM_SinhConTheoMeVaoTrai> DM_SinhConTheoMeVaoTrais { get; set; }
@@ -98,11 +101,7 @@ public class MasterDataDbContext : AbpDbContext
     public DbSet<DM_TonGiao> DM_TonGiaos { get; set; }
     public DbSet<DM_XepLoaiCaiTao> DM_XepLoaiCaiTaos { get; set; }
     public DbSet<DM_DuocDacXa> DM_DuocDacXas { get; set; }
-    public DbSet<DM_LoaiPhamNhan> DM_LoaiPhamNhans { get; set; }
-    public DbSet<DM_LoaiQuyetDinhGiamGiu> DM_LoaiQuyetDinhGiamGius { get; set; }    
-    public DbSet<DM_LoaiQDTamDinhChi> DM_LoaiQDTamDinhChis { get; set; }
-    public DbSet<DM_LyDoTamDinhChi> DM_LyDoTamDinhChis { get; set; }
-
+    public DbSet<DM_ToiDanh> DM_ToiDanhs { get; set; }
     public MasterDataDbContext(DbContextOptions<MasterDataDbContext> options)
         : base(options)
     {

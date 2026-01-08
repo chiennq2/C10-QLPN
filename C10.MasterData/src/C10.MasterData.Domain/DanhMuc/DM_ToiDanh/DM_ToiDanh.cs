@@ -7,18 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C10.MasterData.Domain.DanhMuc.DM_LoaiQDTamDinhChi
+namespace C10.MasterData.Domain.DanhMuc.DM_ToiDanh
 {
-    [Table("DM_LOAI_QD_TAM_DINH_CHI")]
+    [Table("DM_TOI_DANH")]
 
-    public class DM_LoaiQDTamDinhChi : FullAuditedEntity<int>
+    public class DM_ToiDanh : FullAuditedEntity<int>
     {
         [Required]
         [StringLength(MasterDataConsts.MaxTenLength)]
-        public string LQDTDC_Ten { get; set; }
+        public string TD_Ten { get; set; }
         [Required]
         [StringLength(MasterDataConsts.MaxMaLength)]
-        public string LQDTDC_Ma { get; set; }
-        public int LQDTDC_Trang_Thai { get; set; }
+        public string TD_Ma { get; set; }
+        public int TD_Trang_Thai { get; set; }
+
+        [StringLength(50)]
+        public string? TD_Chuong { get; set; }
+        [StringLength(255)]
+        public string? TD_Can_Cu { get; set; }
     }
 }

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C10.MasterData.Domain.DanhMuc.DM_LyDoDinhChi
+namespace C10.MasterData.Domain.DanhMuc.DM_LoaiQDTDT
 {
-    public class DM_LyDoDinhChiService : DomainService
+    public class DM_LoaiQDTDCService : DomainService
     {
     }
 }

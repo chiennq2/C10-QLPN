@@ -1824,3 +1824,1221 @@ INFO  2026-01-08 08:26:01,465 [6    ] c.Infrastructure.ControllerActionInvoker -
 INFO  2026-01-08 08:26:01,465 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
 INFO  2026-01-08 08:26:01,466 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 154.8097ms
 INFO  2026-01-08 08:26:01,475 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 129.9238ms
+DEBUG 2026-01-08 09:43:46,113 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-01-08 09:43:46,391 [2    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2026-01-08 09:43:46,400 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.Web.Host.Startup.MasterDataWebHostModule, C10.MasterData.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:46,401 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataWebCoreModule, C10.MasterData.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:46,401 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataApplicationModule, C10.MasterData.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:46,402 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataCoreModule, C10.MasterData.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:46,402 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:46,402 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataDomainModule, C10.MasterData.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:46,402 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:46,403 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:46,403 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:46,403 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:46,403 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:46,403 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:46,404 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:46,404 [2    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2026-01-08 09:43:47,089 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: C10.MasterData.EntityFrameworkCore.MasterDataDbContext, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:43:47,288 [2    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2026-01-08 09:43:47,316 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-01-08 09:43:47,320 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: MasterData
+DEBUG 2026-01-08 09:43:47,323 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-01-08 09:43:47,332 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-01-08 09:43:47,345 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 31 classes define auto mapping attributes
+DEBUG 2026-01-08 09:43:47,345 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XuLyBat.Dto.CreateDM_XuLyBatDto
+DEBUG 2026-01-08 09:43:47,347 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.TruongHopBat.Dto.CreateDM_TruongHopBatDto
+DEBUG 2026-01-08 09:43:47,347 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuocTich.Dto.CreateDM_QuocTichDto
+DEBUG 2026-01-08 09:43:47,347 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuanHeVoiPhamNhan.Dto.CreateDM_QuanHeVoiPNDto
+DEBUG 2026-01-08 09:43:47,347 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.NgheNghiep.Dto.CreateDM_NgheNghiepDto
+DEBUG 2026-01-08 09:43:47,347 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MucAnPhat.Dto.CreateDM_MucAnPhatDto
+DEBUG 2026-01-08 09:43:47,347 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MaPhanLoai.Dto.CreateDM_MaPhanLoaiDto
+DEBUG 2026-01-08 09:43:47,347 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoTrichXuat.Dto.CreateDM_LyDoTrichXuatDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKyLuat.Dto.CreateDM_LyDoKyLuatDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhongXetGiam.Dto.CreateDM_LyDoKhongXetGiamDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhen.Dto.CreateDM_LyDoKhenDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoGiamRPN.Dto.CreateDM_LyDoGiamRPNDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoDinhChi.Dto.CreateDM_LyDoDinhChiDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoAnGiam.Dto.CreateDM_LyDoAnGiamDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiTangGiamHinhPhat.Dto.CreateDM_LoaiTangGiamHinhPhatDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQuyetDinhTrichXuat.Dto.CreateDM_LoaiQuyetDinhTrichXuatDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQDTDC.Dto.CreateDM_LoaiQDTDCDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiPhanLoai.Dto.CreateDM_LoaiPhanLoaiDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XepLoaiCaiTao.Dto.CreateDM_KyXepLoaiCaiTaoDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HocVan.Dto.CreateDM_HocVanDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKyLuat.Dto.CreateDM_HinhThucKyLuatDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKhenThuong.Dto.CreateDM_HinhThucKhenThuongDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucChon.Dto.CreateDM_HinhThucChonDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhPhatBoSung.Dto.CreateDM_HinhPhatBoSungDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GioiTinh.Dto.CreateDM_GioiTinhDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GhiChuRieng.Dto.CreateDM_GhiChuRiengDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MasterData.DungChung.Dto.CreateDM_DungChungDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DoTuoi.Dto.CreateDM_DoTuoiDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DanToc.Dto.CreateDM_DanTocDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.CapToaXu.Dto.CreateDM_CapToaXuDto
+DEBUG 2026-01-08 09:43:47,348 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.BenhTat.Dto.CreateDM_BenhTatDto
+INFO  2026-01-08 09:43:48,765 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 09:43:48,767 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 09:43:49,346 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - - -
+INFO  2026-01-08 09:43:49,386 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-01-08 09:43:49,386 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-01-08 09:43:49,386 [2    ] Microsoft.Hosting.Lifetime               - Content root path: D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host
+INFO  2026-01-08 09:43:49,447 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'C10.MasterData.Web.Host.Controllers.HomeController.Index (C10.MasterData.Web.Host)'
+INFO  2026-01-08 09:43:49,460 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller C10.MasterData.Web.Host.Controllers.HomeController (C10.MasterData.Web.Host).
+INFO  2026-01-08 09:43:49,497 [9    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: C10.MasterData.Web.Host.Controllers.HomeController.Index is executed by an anonymous user in 4 ms from ::1 IP address with succeed.
+INFO  2026-01-08 09:43:49,500 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2026-01-08 09:43:49,509 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action C10.MasterData.Web.Host.Controllers.HomeController.Index (C10.MasterData.Web.Host) in 40.4462ms
+INFO  2026-01-08 09:43:49,509 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'C10.MasterData.Web.Host.Controllers.HomeController.Index (C10.MasterData.Web.Host)'
+INFO  2026-01-08 09:43:49,512 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - 499 - - 166.1185ms
+DEBUG 2026-01-08 09:58:49,924 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-01-08 09:58:50,018 [2    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2026-01-08 09:58:50,026 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.Web.Host.Startup.MasterDataWebHostModule, C10.MasterData.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,027 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataWebCoreModule, C10.MasterData.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,028 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataApplicationModule, C10.MasterData.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,028 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataCoreModule, C10.MasterData.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,028 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,028 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataDomainModule, C10.MasterData.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,029 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,029 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,030 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,030 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,030 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,030 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,030 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,032 [2    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2026-01-08 09:58:50,194 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: C10.MasterData.EntityFrameworkCore.MasterDataDbContext, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:58:50,361 [2    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2026-01-08 09:58:50,402 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-01-08 09:58:50,405 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: MasterData
+DEBUG 2026-01-08 09:58:50,407 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-01-08 09:58:50,415 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-01-08 09:58:50,423 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2026-01-08 09:58:50,423 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XuLyBat.Dto.CreateDM_XuLyBatDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.TruongHopBat.Dto.CreateDM_TruongHopBatDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuocTich.Dto.CreateDM_QuocTichDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuanHeVoiPhamNhan.Dto.CreateDM_QuanHeVoiPNDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.NgheNghiep.Dto.CreateDM_NgheNghiepDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MucAnPhat.Dto.CreateDM_MucAnPhatDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MaPhanLoai.Dto.CreateDM_MaPhanLoaiDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoTrichXuat.Dto.CreateDM_LyDoTrichXuatDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKyLuat.Dto.CreateDM_LyDoKyLuatDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhongXetGiam.Dto.CreateDM_LyDoKhongXetGiamDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhen.Dto.CreateDM_LyDoKhenDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoGiamRPN.Dto.CreateDM_LyDoGiamRPNDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoAnGiam.Dto.CreateDM_LyDoAnGiamDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiTangGiamHinhPhat.Dto.CreateDM_LoaiTangGiamHinhPhatDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQuyetDinhTrichXuat.Dto.CreateDM_LoaiQuyetDinhTrichXuatDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQDTDC.Dto.CreateDM_LoaiQDTDCDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiPhanLoai.Dto.CreateDM_LoaiPhanLoaiDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XepLoaiCaiTao.Dto.CreateDM_KyXepLoaiCaiTaoDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HocVan.Dto.CreateDM_HocVanDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKyLuat.Dto.CreateDM_HinhThucKyLuatDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKhenThuong.Dto.CreateDM_HinhThucKhenThuongDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucChon.Dto.CreateDM_HinhThucChonDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhPhatBoSung.Dto.CreateDM_HinhPhatBoSungDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GioiTinh.Dto.CreateDM_GioiTinhDto
+DEBUG 2026-01-08 09:58:50,425 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GhiChuRieng.Dto.CreateDM_GhiChuRiengDto
+DEBUG 2026-01-08 09:58:50,426 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MasterData.DungChung.Dto.CreateDM_DungChungDto
+DEBUG 2026-01-08 09:58:50,426 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DoTuoi.Dto.CreateDM_DoTuoiDto
+DEBUG 2026-01-08 09:58:50,426 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DanToc.Dto.CreateDM_DanTocDto
+DEBUG 2026-01-08 09:58:50,426 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.CapToaXu.Dto.CreateDM_CapToaXuDto
+DEBUG 2026-01-08 09:58:50,426 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.BenhTat.Dto.CreateDM_BenhTatDto
+FATAL 2026-01-08 09:58:50,858 [2    ] Abp.AbpBootstrapper                      - System.InvalidOperationException: The entity type 'DM_ToiDanh' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Oracle.EntityFrameworkCore.Infrastructure.Internal.OracleModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Abp.EntityFrameworkCore.AbpDbContextOptionsExtension.<>c__DisplayClass0_0.<ApplyServices>b__1(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService(IInfrastructure`1 accessor, Type serviceType)
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_Dependencies()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.Microsoft.EntityFrameworkCore.Storage.IDatabaseFacadeDependenciesAccessor.get_Dependencies()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at C10.MasterData.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 38
+   at C10.MasterData.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 16
+   at C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule.PostInitialize() in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.EntityFrameworkCore\EntityFrameworkCore\MasterDataEntityFrameworkModule.cs:line 48
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+System.InvalidOperationException: The entity type 'DM_ToiDanh' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Oracle.EntityFrameworkCore.Infrastructure.Internal.OracleModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Abp.EntityFrameworkCore.AbpDbContextOptionsExtension.<>c__DisplayClass0_0.<ApplyServices>b__1(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService(IInfrastructure`1 accessor, Type serviceType)
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_Dependencies()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.Microsoft.EntityFrameworkCore.Storage.IDatabaseFacadeDependenciesAccessor.get_Dependencies()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at C10.MasterData.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 38
+   at C10.MasterData.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 16
+   at C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule.PostInitialize() in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.EntityFrameworkCore\EntityFrameworkCore\MasterDataEntityFrameworkModule.cs:line 48
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+FATAL 2026-01-08 09:58:50,900 [2    ] Microsoft.AspNetCore.Hosting.Diagnostics - Application startup exception
+System.InvalidOperationException: The entity type 'DM_ToiDanh' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Oracle.EntityFrameworkCore.Infrastructure.Internal.OracleModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Abp.EntityFrameworkCore.AbpDbContextOptionsExtension.<>c__DisplayClass0_0.<ApplyServices>b__1(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService(IInfrastructure`1 accessor, Type serviceType)
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_Dependencies()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.Microsoft.EntityFrameworkCore.Storage.IDatabaseFacadeDependenciesAccessor.get_Dependencies()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at C10.MasterData.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 38
+   at C10.MasterData.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 16
+   at C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule.PostInitialize() in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.EntityFrameworkCore\EntityFrameworkCore\MasterDataEntityFrameworkModule.cs:line 48
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app)
+   at C10.MasterData.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host\Startup\Startup.cs:line 92
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.WebTools.BrowserLink.Net.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.WebTools.ApiEndpointDiscovery.HostingStartup.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+ERROR 2026-01-08 09:58:50,903 [2    ] crosoft.Extensions.Hosting.Internal.Host - Hosting failed to start
+System.InvalidOperationException: The entity type 'DM_ToiDanh' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Oracle.EntityFrameworkCore.Infrastructure.Internal.OracleModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Abp.EntityFrameworkCore.AbpDbContextOptionsExtension.<>c__DisplayClass0_0.<ApplyServices>b__1(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService(IInfrastructure`1 accessor, Type serviceType)
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_Dependencies()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.Microsoft.EntityFrameworkCore.Storage.IDatabaseFacadeDependenciesAccessor.get_Dependencies()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at C10.MasterData.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 38
+   at C10.MasterData.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 16
+   at C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule.PostInitialize() in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.EntityFrameworkCore\EntityFrameworkCore\MasterDataEntityFrameworkModule.cs:line 48
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app)
+   at C10.MasterData.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) in D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host\Startup\Startup.cs:line 92
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.WebTools.BrowserLink.Net.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.WebTools.ApiEndpointDiscovery.HostingStartup.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+DEBUG 2026-01-08 09:59:12,813 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-01-08 09:59:12,905 [2    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2026-01-08 09:59:12,909 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.Web.Host.Startup.MasterDataWebHostModule, C10.MasterData.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:12,910 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataWebCoreModule, C10.MasterData.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:12,910 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataApplicationModule, C10.MasterData.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:12,910 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataCoreModule, C10.MasterData.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:12,910 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:12,910 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataDomainModule, C10.MasterData.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:12,911 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:12,911 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:12,911 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:12,911 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:12,911 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:12,912 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:12,912 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:12,912 [2    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2026-01-08 09:59:13,020 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: C10.MasterData.EntityFrameworkCore.MasterDataDbContext, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 09:59:13,171 [2    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2026-01-08 09:59:13,192 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-01-08 09:59:13,195 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: MasterData
+DEBUG 2026-01-08 09:59:13,197 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-01-08 09:59:13,206 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-01-08 09:59:13,220 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2026-01-08 09:59:13,220 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XuLyBat.Dto.CreateDM_XuLyBatDto
+DEBUG 2026-01-08 09:59:13,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.TruongHopBat.Dto.CreateDM_TruongHopBatDto
+DEBUG 2026-01-08 09:59:13,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuocTich.Dto.CreateDM_QuocTichDto
+DEBUG 2026-01-08 09:59:13,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuanHeVoiPhamNhan.Dto.CreateDM_QuanHeVoiPNDto
+DEBUG 2026-01-08 09:59:13,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.NgheNghiep.Dto.CreateDM_NgheNghiepDto
+DEBUG 2026-01-08 09:59:13,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MucAnPhat.Dto.CreateDM_MucAnPhatDto
+DEBUG 2026-01-08 09:59:13,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MaPhanLoai.Dto.CreateDM_MaPhanLoaiDto
+DEBUG 2026-01-08 09:59:13,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoTrichXuat.Dto.CreateDM_LyDoTrichXuatDto
+DEBUG 2026-01-08 09:59:13,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKyLuat.Dto.CreateDM_LyDoKyLuatDto
+DEBUG 2026-01-08 09:59:13,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhongXetGiam.Dto.CreateDM_LyDoKhongXetGiamDto
+DEBUG 2026-01-08 09:59:13,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhen.Dto.CreateDM_LyDoKhenDto
+DEBUG 2026-01-08 09:59:13,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoGiamRPN.Dto.CreateDM_LyDoGiamRPNDto
+DEBUG 2026-01-08 09:59:13,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoAnGiam.Dto.CreateDM_LyDoAnGiamDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiTangGiamHinhPhat.Dto.CreateDM_LoaiTangGiamHinhPhatDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQuyetDinhTrichXuat.Dto.CreateDM_LoaiQuyetDinhTrichXuatDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQDTDC.Dto.CreateDM_LoaiQDTDCDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiPhanLoai.Dto.CreateDM_LoaiPhanLoaiDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XepLoaiCaiTao.Dto.CreateDM_KyXepLoaiCaiTaoDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HocVan.Dto.CreateDM_HocVanDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKyLuat.Dto.CreateDM_HinhThucKyLuatDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKhenThuong.Dto.CreateDM_HinhThucKhenThuongDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucChon.Dto.CreateDM_HinhThucChonDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhPhatBoSung.Dto.CreateDM_HinhPhatBoSungDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GioiTinh.Dto.CreateDM_GioiTinhDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GhiChuRieng.Dto.CreateDM_GhiChuRiengDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MasterData.DungChung.Dto.CreateDM_DungChungDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DoTuoi.Dto.CreateDM_DoTuoiDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DanToc.Dto.CreateDM_DanTocDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.CapToaXu.Dto.CreateDM_CapToaXuDto
+DEBUG 2026-01-08 09:59:13,225 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.BenhTat.Dto.CreateDM_BenhTatDto
+INFO  2026-01-08 09:59:14,115 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 09:59:14,116 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 09:59:14,294 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/ - - -
+INFO  2026-01-08 09:59:14,345 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-01-08 09:59:14,345 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-01-08 09:59:14,345 [2    ] Microsoft.Hosting.Lifetime               - Content root path: D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host
+INFO  2026-01-08 09:59:14,390 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'C10.MasterData.Web.Host.Controllers.HomeController.Index (C10.MasterData.Web.Host)'
+INFO  2026-01-08 09:59:14,410 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller C10.MasterData.Web.Host.Controllers.HomeController (C10.MasterData.Web.Host).
+INFO  2026-01-08 09:59:14,434 [9    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: C10.MasterData.Web.Host.Controllers.HomeController.Index is executed by an anonymous user in 5 ms from ::1 IP address with succeed.
+INFO  2026-01-08 09:59:14,438 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2026-01-08 09:59:14,447 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action C10.MasterData.Web.Host.Controllers.HomeController.Index (C10.MasterData.Web.Host) in 27.69ms
+INFO  2026-01-08 09:59:14,447 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'C10.MasterData.Web.Host.Controllers.HomeController.Index (C10.MasterData.Web.Host)'
+INFO  2026-01-08 09:59:14,460 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/ - 302 - - 164.8808ms
+INFO  2026-01-08 09:59:14,477 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-01-08 09:59:14,477 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-01-08 09:59:14,477 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - -
+INFO  2026-01-08 09:59:14,477 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - -
+INFO  2026-01-08 09:59:14,483 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript;+charset=utf-8 5.9462ms
+INFO  2026-01-08 09:59:14,519 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 42.1024ms
+INFO  2026-01-08 09:59:14,528 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2026-01-08 09:59:14,529 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - 200 3814 text/javascript 51.6914ms
+INFO  2026-01-08 09:59:14,532 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2026-01-08 09:59:14,533 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - 200 8242 text/javascript 55.9644ms
+INFO  2026-01-08 09:59:14,595 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-01-08 09:59:14,597 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 09:59:14,599 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller C10.MasterData.Web.Host.Controllers.AntiForgeryController (C10.MasterData.Web.Host).
+INFO  2026-01-08 09:59:14,604 [9    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie is executed by an anonymous user in 3 ms from ::1 IP address with succeed.
+INFO  2026-01-08 09:59:14,607 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-01-08 09:59:14,612 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-01-08 09:59:14,615 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host) in 15.6977ms
+INFO  2026-01-08 09:59:14,615 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 09:59:14,616 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 20.5646ms
+INFO  2026-01-08 09:59:14,649 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 36.7169ms
+DEBUG 2026-01-08 10:00:23,900 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-01-08 10:00:23,952 [2    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2026-01-08 10:00:23,957 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.Web.Host.Startup.MasterDataWebHostModule, C10.MasterData.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:23,958 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataWebCoreModule, C10.MasterData.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:23,959 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataApplicationModule, C10.MasterData.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:23,959 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataCoreModule, C10.MasterData.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:23,959 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:23,959 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataDomainModule, C10.MasterData.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:23,959 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:23,960 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:23,960 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:23,960 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:23,960 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:23,960 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:23,960 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:23,961 [2    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2026-01-08 10:00:24,064 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: C10.MasterData.EntityFrameworkCore.MasterDataDbContext, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:24,183 [2    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2026-01-08 10:00:24,203 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-01-08 10:00:24,206 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: MasterData
+DEBUG 2026-01-08 10:00:24,208 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-01-08 10:00:24,215 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-01-08 10:00:24,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2026-01-08 10:00:24,224 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XuLyBat.Dto.CreateDM_XuLyBatDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.TruongHopBat.Dto.CreateDM_TruongHopBatDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuocTich.Dto.CreateDM_QuocTichDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuanHeVoiPhamNhan.Dto.CreateDM_QuanHeVoiPNDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.NgheNghiep.Dto.CreateDM_NgheNghiepDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MucAnPhat.Dto.CreateDM_MucAnPhatDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MaPhanLoai.Dto.CreateDM_MaPhanLoaiDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoTrichXuat.Dto.CreateDM_LyDoTrichXuatDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKyLuat.Dto.CreateDM_LyDoKyLuatDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhongXetGiam.Dto.CreateDM_LyDoKhongXetGiamDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhen.Dto.CreateDM_LyDoKhenDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoGiamRPN.Dto.CreateDM_LyDoGiamRPNDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoAnGiam.Dto.CreateDM_LyDoAnGiamDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiTangGiamHinhPhat.Dto.CreateDM_LoaiTangGiamHinhPhatDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQuyetDinhTrichXuat.Dto.CreateDM_LoaiQuyetDinhTrichXuatDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQDTDC.Dto.CreateDM_LoaiQDTDCDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiPhanLoai.Dto.CreateDM_LoaiPhanLoaiDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XepLoaiCaiTao.Dto.CreateDM_KyXepLoaiCaiTaoDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HocVan.Dto.CreateDM_HocVanDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKyLuat.Dto.CreateDM_HinhThucKyLuatDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKhenThuong.Dto.CreateDM_HinhThucKhenThuongDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucChon.Dto.CreateDM_HinhThucChonDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhPhatBoSung.Dto.CreateDM_HinhPhatBoSungDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GioiTinh.Dto.CreateDM_GioiTinhDto
+DEBUG 2026-01-08 10:00:24,226 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GhiChuRieng.Dto.CreateDM_GhiChuRiengDto
+DEBUG 2026-01-08 10:00:24,227 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MasterData.DungChung.Dto.CreateDM_DungChungDto
+DEBUG 2026-01-08 10:00:24,227 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DoTuoi.Dto.CreateDM_DoTuoiDto
+DEBUG 2026-01-08 10:00:24,227 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DanToc.Dto.CreateDM_DanTocDto
+DEBUG 2026-01-08 10:00:24,227 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.CapToaXu.Dto.CreateDM_CapToaXuDto
+DEBUG 2026-01-08 10:00:24,227 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.BenhTat.Dto.CreateDM_BenhTatDto
+INFO  2026-01-08 10:00:25,000 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:00:25,001 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:00:25,152 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2026-01-08 10:00:25,198 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-01-08 10:00:25,198 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-01-08 10:00:25,198 [2    ] Microsoft.Hosting.Lifetime               - Content root path: D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host
+INFO  2026-01-08 10:00:25,282 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 126.2834ms
+INFO  2026-01-08 10:00:25,289 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-01-08 10:00:25,289 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-01-08 10:00:25,292 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript;+charset=utf-8 2.5169ms
+INFO  2026-01-08 10:00:25,307 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 18.0081ms
+INFO  2026-01-08 10:00:25,367 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-01-08 10:00:25,371 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:00:25,385 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller C10.MasterData.Web.Host.Controllers.AntiForgeryController (C10.MasterData.Web.Host).
+INFO  2026-01-08 10:00:25,396 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-01-08 10:00:25,413 [9    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie is executed by an anonymous user in 8 ms from ::1 IP address with succeed.
+INFO  2026-01-08 10:00:25,421 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-01-08 10:00:25,434 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host) in 41.1348ms
+INFO  2026-01-08 10:00:25,434 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:00:25,434 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 66.9483ms
+INFO  2026-01-08 10:00:25,435 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 39.5350ms
+DEBUG 2026-01-08 10:00:41,966 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-01-08 10:00:41,974 [2    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2026-01-08 10:00:41,979 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.Web.Host.Startup.MasterDataWebHostModule, C10.MasterData.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:41,980 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataWebCoreModule, C10.MasterData.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:41,980 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataApplicationModule, C10.MasterData.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:41,981 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataCoreModule, C10.MasterData.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:41,981 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:41,981 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataDomainModule, C10.MasterData.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:41,982 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:41,982 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:41,982 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:41,982 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:41,983 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:41,983 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:41,983 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:41,984 [2    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2026-01-08 10:00:42,128 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: C10.MasterData.EntityFrameworkCore.MasterDataDbContext, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:00:42,316 [2    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2026-01-08 10:00:42,342 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-01-08 10:00:42,347 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: MasterData
+DEBUG 2026-01-08 10:00:42,349 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-01-08 10:00:42,358 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-01-08 10:00:42,370 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2026-01-08 10:00:42,370 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XuLyBat.Dto.CreateDM_XuLyBatDto
+DEBUG 2026-01-08 10:00:42,371 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.TruongHopBat.Dto.CreateDM_TruongHopBatDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuocTich.Dto.CreateDM_QuocTichDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuanHeVoiPhamNhan.Dto.CreateDM_QuanHeVoiPNDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.NgheNghiep.Dto.CreateDM_NgheNghiepDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MucAnPhat.Dto.CreateDM_MucAnPhatDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MaPhanLoai.Dto.CreateDM_MaPhanLoaiDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoTrichXuat.Dto.CreateDM_LyDoTrichXuatDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKyLuat.Dto.CreateDM_LyDoKyLuatDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhongXetGiam.Dto.CreateDM_LyDoKhongXetGiamDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhen.Dto.CreateDM_LyDoKhenDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoGiamRPN.Dto.CreateDM_LyDoGiamRPNDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoAnGiam.Dto.CreateDM_LyDoAnGiamDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiTangGiamHinhPhat.Dto.CreateDM_LoaiTangGiamHinhPhatDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQuyetDinhTrichXuat.Dto.CreateDM_LoaiQuyetDinhTrichXuatDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQDTDC.Dto.CreateDM_LoaiQDTDCDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiPhanLoai.Dto.CreateDM_LoaiPhanLoaiDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XepLoaiCaiTao.Dto.CreateDM_KyXepLoaiCaiTaoDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HocVan.Dto.CreateDM_HocVanDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKyLuat.Dto.CreateDM_HinhThucKyLuatDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKhenThuong.Dto.CreateDM_HinhThucKhenThuongDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucChon.Dto.CreateDM_HinhThucChonDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhPhatBoSung.Dto.CreateDM_HinhPhatBoSungDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GioiTinh.Dto.CreateDM_GioiTinhDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GhiChuRieng.Dto.CreateDM_GhiChuRiengDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MasterData.DungChung.Dto.CreateDM_DungChungDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DoTuoi.Dto.CreateDM_DoTuoiDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DanToc.Dto.CreateDM_DanTocDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.CapToaXu.Dto.CreateDM_CapToaXuDto
+DEBUG 2026-01-08 10:00:42,372 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.BenhTat.Dto.CreateDM_BenhTatDto
+INFO  2026-01-08 10:00:43,322 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:00:43,323 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:00:43,486 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2026-01-08 10:00:43,535 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-01-08 10:00:43,535 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-01-08 10:00:43,535 [2    ] Microsoft.Hosting.Lifetime               - Content root path: D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host
+INFO  2026-01-08 10:00:43,647 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 155.0541ms
+INFO  2026-01-08 10:00:43,649 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-01-08 10:00:43,649 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-01-08 10:00:43,653 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript;+charset=utf-8 3.1019ms
+INFO  2026-01-08 10:00:43,671 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 22.0093ms
+INFO  2026-01-08 10:00:43,720 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-01-08 10:00:43,723 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:00:43,746 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller C10.MasterData.Web.Host.Controllers.AntiForgeryController (C10.MasterData.Web.Host).
+INFO  2026-01-08 10:00:43,746 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-01-08 10:00:43,780 [9    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie is executed by an anonymous user in 11 ms from ::1 IP address with succeed.
+INFO  2026-01-08 10:00:43,787 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-01-08 10:00:43,794 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 47.3462ms
+INFO  2026-01-08 10:00:43,801 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host) in 47.967ms
+INFO  2026-01-08 10:00:43,801 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:00:43,801 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 81.5148ms
+DEBUG 2026-01-08 10:02:36,950 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-01-08 10:02:36,957 [2    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2026-01-08 10:02:36,960 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.Web.Host.Startup.MasterDataWebHostModule, C10.MasterData.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:36,961 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataWebCoreModule, C10.MasterData.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:36,961 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataApplicationModule, C10.MasterData.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:36,961 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataCoreModule, C10.MasterData.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:36,962 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:36,962 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataDomainModule, C10.MasterData.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:36,962 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:36,962 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:36,963 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:36,963 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:36,963 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:36,963 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:36,963 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:36,964 [2    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2026-01-08 10:02:37,069 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: C10.MasterData.EntityFrameworkCore.MasterDataDbContext, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:02:37,195 [2    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2026-01-08 10:02:37,217 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-01-08 10:02:37,220 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: MasterData
+DEBUG 2026-01-08 10:02:37,222 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-01-08 10:02:37,229 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-01-08 10:02:37,238 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2026-01-08 10:02:37,238 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XuLyBat.Dto.CreateDM_XuLyBatDto
+DEBUG 2026-01-08 10:02:37,240 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.TruongHopBat.Dto.CreateDM_TruongHopBatDto
+DEBUG 2026-01-08 10:02:37,240 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuocTich.Dto.CreateDM_QuocTichDto
+DEBUG 2026-01-08 10:02:37,240 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuanHeVoiPhamNhan.Dto.CreateDM_QuanHeVoiPNDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.NgheNghiep.Dto.CreateDM_NgheNghiepDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MucAnPhat.Dto.CreateDM_MucAnPhatDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MaPhanLoai.Dto.CreateDM_MaPhanLoaiDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoTrichXuat.Dto.CreateDM_LyDoTrichXuatDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKyLuat.Dto.CreateDM_LyDoKyLuatDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhongXetGiam.Dto.CreateDM_LyDoKhongXetGiamDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhen.Dto.CreateDM_LyDoKhenDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoGiamRPN.Dto.CreateDM_LyDoGiamRPNDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoAnGiam.Dto.CreateDM_LyDoAnGiamDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiTangGiamHinhPhat.Dto.CreateDM_LoaiTangGiamHinhPhatDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQuyetDinhTrichXuat.Dto.CreateDM_LoaiQuyetDinhTrichXuatDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQDTDC.Dto.CreateDM_LoaiQDTDCDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiPhanLoai.Dto.CreateDM_LoaiPhanLoaiDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XepLoaiCaiTao.Dto.CreateDM_KyXepLoaiCaiTaoDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HocVan.Dto.CreateDM_HocVanDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKyLuat.Dto.CreateDM_HinhThucKyLuatDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKhenThuong.Dto.CreateDM_HinhThucKhenThuongDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucChon.Dto.CreateDM_HinhThucChonDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhPhatBoSung.Dto.CreateDM_HinhPhatBoSungDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GioiTinh.Dto.CreateDM_GioiTinhDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GhiChuRieng.Dto.CreateDM_GhiChuRiengDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MasterData.DungChung.Dto.CreateDM_DungChungDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DoTuoi.Dto.CreateDM_DoTuoiDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DanToc.Dto.CreateDM_DanTocDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.CapToaXu.Dto.CreateDM_CapToaXuDto
+DEBUG 2026-01-08 10:02:37,241 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.BenhTat.Dto.CreateDM_BenhTatDto
+INFO  2026-01-08 10:02:37,964 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:02:37,965 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:02:38,113 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2026-01-08 10:02:38,155 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-01-08 10:02:38,155 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-01-08 10:02:38,155 [2    ] Microsoft.Hosting.Lifetime               - Content root path: D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host
+INFO  2026-01-08 10:02:38,227 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 110.5310ms
+INFO  2026-01-08 10:02:38,235 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - -
+INFO  2026-01-08 10:02:38,239 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - -
+INFO  2026-01-08 10:02:38,239 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2026-01-08 10:02:38,239 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-01-08 10:02:38,240 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2026-01-08 10:02:38,240 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - 304 - text/javascript 5.5340ms
+INFO  2026-01-08 10:02:38,240 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - 304 - text/javascript 1.3326ms
+INFO  2026-01-08 10:02:38,242 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript;+charset=utf-8 2.5418ms
+INFO  2026-01-08 10:02:38,274 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-01-08 10:02:38,292 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 17.7174ms
+INFO  2026-01-08 10:02:38,357 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-01-08 10:02:38,360 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:02:38,374 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller C10.MasterData.Web.Host.Controllers.AntiForgeryController (C10.MasterData.Web.Host).
+INFO  2026-01-08 10:02:38,382 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-01-08 10:02:38,399 [16   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie is executed by an anonymous user in 8 ms from ::1 IP address with succeed.
+INFO  2026-01-08 10:02:38,408 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-01-08 10:02:38,420 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host) in 40.4683ms
+INFO  2026-01-08 10:02:38,420 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:02:38,420 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 63.2194ms
+INFO  2026-01-08 10:02:38,423 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 41.1019ms
+DEBUG 2026-01-08 10:03:43,416 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-01-08 10:03:43,422 [2    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2026-01-08 10:03:43,425 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.Web.Host.Startup.MasterDataWebHostModule, C10.MasterData.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,426 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataWebCoreModule, C10.MasterData.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,426 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataApplicationModule, C10.MasterData.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,426 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataCoreModule, C10.MasterData.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,426 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,426 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataDomainModule, C10.MasterData.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,427 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,427 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,427 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,427 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,428 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,428 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,428 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,429 [2    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2026-01-08 10:03:43,530 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: C10.MasterData.EntityFrameworkCore.MasterDataDbContext, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:03:43,651 [2    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2026-01-08 10:03:43,671 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-01-08 10:03:43,674 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: MasterData
+DEBUG 2026-01-08 10:03:43,675 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-01-08 10:03:43,682 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-01-08 10:03:43,691 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2026-01-08 10:03:43,691 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XuLyBat.Dto.CreateDM_XuLyBatDto
+DEBUG 2026-01-08 10:03:43,693 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.TruongHopBat.Dto.CreateDM_TruongHopBatDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuocTich.Dto.CreateDM_QuocTichDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuanHeVoiPhamNhan.Dto.CreateDM_QuanHeVoiPNDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.NgheNghiep.Dto.CreateDM_NgheNghiepDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MucAnPhat.Dto.CreateDM_MucAnPhatDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MaPhanLoai.Dto.CreateDM_MaPhanLoaiDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoTrichXuat.Dto.CreateDM_LyDoTrichXuatDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKyLuat.Dto.CreateDM_LyDoKyLuatDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhongXetGiam.Dto.CreateDM_LyDoKhongXetGiamDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhen.Dto.CreateDM_LyDoKhenDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoGiamRPN.Dto.CreateDM_LyDoGiamRPNDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoAnGiam.Dto.CreateDM_LyDoAnGiamDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiTangGiamHinhPhat.Dto.CreateDM_LoaiTangGiamHinhPhatDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQuyetDinhTrichXuat.Dto.CreateDM_LoaiQuyetDinhTrichXuatDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQDTDC.Dto.CreateDM_LoaiQDTDCDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiPhanLoai.Dto.CreateDM_LoaiPhanLoaiDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XepLoaiCaiTao.Dto.CreateDM_KyXepLoaiCaiTaoDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HocVan.Dto.CreateDM_HocVanDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKyLuat.Dto.CreateDM_HinhThucKyLuatDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKhenThuong.Dto.CreateDM_HinhThucKhenThuongDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucChon.Dto.CreateDM_HinhThucChonDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhPhatBoSung.Dto.CreateDM_HinhPhatBoSungDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GioiTinh.Dto.CreateDM_GioiTinhDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GhiChuRieng.Dto.CreateDM_GhiChuRiengDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MasterData.DungChung.Dto.CreateDM_DungChungDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DoTuoi.Dto.CreateDM_DoTuoiDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DanToc.Dto.CreateDM_DanTocDto
+DEBUG 2026-01-08 10:03:43,694 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.CapToaXu.Dto.CreateDM_CapToaXuDto
+DEBUG 2026-01-08 10:03:43,695 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.BenhTat.Dto.CreateDM_BenhTatDto
+INFO  2026-01-08 10:03:46,341 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:03:46,342 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:03:46,511 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2026-01-08 10:03:46,560 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-01-08 10:03:46,560 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-01-08 10:03:46,561 [2    ] Microsoft.Hosting.Lifetime               - Content root path: D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host
+INFO  2026-01-08 10:03:46,632 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 116.6965ms
+INFO  2026-01-08 10:03:46,641 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-01-08 10:03:46,641 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-01-08 10:03:46,644 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript;+charset=utf-8 2.1450ms
+INFO  2026-01-08 10:03:46,659 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 17.3356ms
+INFO  2026-01-08 10:03:46,696 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-01-08 10:03:46,699 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:03:46,713 [17   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller C10.MasterData.Web.Host.Controllers.AntiForgeryController (C10.MasterData.Web.Host).
+INFO  2026-01-08 10:03:46,728 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-01-08 10:03:46,738 [17   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie is executed by an anonymous user in 8 ms from ::1 IP address with succeed.
+INFO  2026-01-08 10:03:46,744 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-01-08 10:03:46,758 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host) in 37.7642ms
+INFO  2026-01-08 10:03:46,758 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:03:46,759 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 63.0418ms
+INFO  2026-01-08 10:03:46,783 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 54.4867ms
+DEBUG 2026-01-08 10:07:10,360 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-01-08 10:07:10,366 [2    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2026-01-08 10:07:10,370 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.Web.Host.Startup.MasterDataWebHostModule, C10.MasterData.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,371 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataWebCoreModule, C10.MasterData.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,371 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataApplicationModule, C10.MasterData.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,371 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataCoreModule, C10.MasterData.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,371 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,371 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataDomainModule, C10.MasterData.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,372 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,372 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,372 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,372 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,372 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,372 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,372 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,373 [2    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2026-01-08 10:07:10,487 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: C10.MasterData.EntityFrameworkCore.MasterDataDbContext, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:10,613 [2    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2026-01-08 10:07:10,633 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-01-08 10:07:10,636 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: MasterData
+DEBUG 2026-01-08 10:07:10,638 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-01-08 10:07:10,645 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-01-08 10:07:10,654 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2026-01-08 10:07:10,654 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XuLyBat.Dto.CreateDM_XuLyBatDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.TruongHopBat.Dto.CreateDM_TruongHopBatDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuocTich.Dto.CreateDM_QuocTichDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuanHeVoiPhamNhan.Dto.CreateDM_QuanHeVoiPNDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.NgheNghiep.Dto.CreateDM_NgheNghiepDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MucAnPhat.Dto.CreateDM_MucAnPhatDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MaPhanLoai.Dto.CreateDM_MaPhanLoaiDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoTrichXuat.Dto.CreateDM_LyDoTrichXuatDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKyLuat.Dto.CreateDM_LyDoKyLuatDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhongXetGiam.Dto.CreateDM_LyDoKhongXetGiamDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhen.Dto.CreateDM_LyDoKhenDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoGiamRPN.Dto.CreateDM_LyDoGiamRPNDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoAnGiam.Dto.CreateDM_LyDoAnGiamDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiTangGiamHinhPhat.Dto.CreateDM_LoaiTangGiamHinhPhatDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQuyetDinhTrichXuat.Dto.CreateDM_LoaiQuyetDinhTrichXuatDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQDTDC.Dto.CreateDM_LoaiQDTDCDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiPhanLoai.Dto.CreateDM_LoaiPhanLoaiDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XepLoaiCaiTao.Dto.CreateDM_KyXepLoaiCaiTaoDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HocVan.Dto.CreateDM_HocVanDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKyLuat.Dto.CreateDM_HinhThucKyLuatDto
+DEBUG 2026-01-08 10:07:10,656 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKhenThuong.Dto.CreateDM_HinhThucKhenThuongDto
+DEBUG 2026-01-08 10:07:10,657 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucChon.Dto.CreateDM_HinhThucChonDto
+DEBUG 2026-01-08 10:07:10,657 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhPhatBoSung.Dto.CreateDM_HinhPhatBoSungDto
+DEBUG 2026-01-08 10:07:10,657 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GioiTinh.Dto.CreateDM_GioiTinhDto
+DEBUG 2026-01-08 10:07:10,657 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GhiChuRieng.Dto.CreateDM_GhiChuRiengDto
+DEBUG 2026-01-08 10:07:10,657 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MasterData.DungChung.Dto.CreateDM_DungChungDto
+DEBUG 2026-01-08 10:07:10,657 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DoTuoi.Dto.CreateDM_DoTuoiDto
+DEBUG 2026-01-08 10:07:10,657 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DanToc.Dto.CreateDM_DanTocDto
+DEBUG 2026-01-08 10:07:10,657 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.CapToaXu.Dto.CreateDM_CapToaXuDto
+DEBUG 2026-01-08 10:07:10,657 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.BenhTat.Dto.CreateDM_BenhTatDto
+INFO  2026-01-08 10:07:11,637 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:07:11,638 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:07:11,777 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2026-01-08 10:07:11,821 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-01-08 10:07:11,821 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-01-08 10:07:11,821 [2    ] Microsoft.Hosting.Lifetime               - Content root path: D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host
+INFO  2026-01-08 10:07:11,893 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 111.6161ms
+INFO  2026-01-08 10:07:11,905 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - - -
+INFO  2026-01-08 10:07:11,905 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-01-08 10:07:11,905 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - - -
+INFO  2026-01-08 10:07:11,908 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript;+charset=utf-8 2.4016ms
+INFO  2026-01-08 10:07:11,909 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2026-01-08 10:07:11,909 [16   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2026-01-08 10:07:11,911 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.swagger.js - 304 - text/javascript 5.1616ms
+INFO  2026-01-08 10:07:11,911 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/ui/abp.js - 304 - text/javascript 5.1598ms
+INFO  2026-01-08 10:07:11,940 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-01-08 10:07:11,960 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 19.9567ms
+INFO  2026-01-08 10:07:12,035 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-01-08 10:07:12,038 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:07:12,053 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller C10.MasterData.Web.Host.Controllers.AntiForgeryController (C10.MasterData.Web.Host).
+INFO  2026-01-08 10:07:12,061 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-01-08 10:07:12,077 [16   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie is executed by an anonymous user in 7 ms from ::1 IP address with succeed.
+INFO  2026-01-08 10:07:12,082 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-01-08 10:07:12,091 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host) in 33.3373ms
+INFO  2026-01-08 10:07:12,092 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:07:12,092 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 56.7082ms
+INFO  2026-01-08 10:07:12,094 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 32.3350ms
+DEBUG 2026-01-08 10:07:41,267 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-01-08 10:07:41,273 [2    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2026-01-08 10:07:41,277 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.Web.Host.Startup.MasterDataWebHostModule, C10.MasterData.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,278 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataWebCoreModule, C10.MasterData.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,278 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataApplicationModule, C10.MasterData.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,278 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataCoreModule, C10.MasterData.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,278 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,278 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataDomainModule, C10.MasterData.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,279 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,279 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,279 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,279 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,279 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,279 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,280 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,280 [2    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2026-01-08 10:07:41,380 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: C10.MasterData.EntityFrameworkCore.MasterDataDbContext, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:41,506 [2    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2026-01-08 10:07:41,529 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-01-08 10:07:41,531 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: MasterData
+DEBUG 2026-01-08 10:07:41,533 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-01-08 10:07:41,541 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-01-08 10:07:41,549 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2026-01-08 10:07:41,549 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XuLyBat.Dto.CreateDM_XuLyBatDto
+DEBUG 2026-01-08 10:07:41,551 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.TruongHopBat.Dto.CreateDM_TruongHopBatDto
+DEBUG 2026-01-08 10:07:41,551 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuocTich.Dto.CreateDM_QuocTichDto
+DEBUG 2026-01-08 10:07:41,551 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuanHeVoiPhamNhan.Dto.CreateDM_QuanHeVoiPNDto
+DEBUG 2026-01-08 10:07:41,551 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.NgheNghiep.Dto.CreateDM_NgheNghiepDto
+DEBUG 2026-01-08 10:07:41,551 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MucAnPhat.Dto.CreateDM_MucAnPhatDto
+DEBUG 2026-01-08 10:07:41,551 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MaPhanLoai.Dto.CreateDM_MaPhanLoaiDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoTrichXuat.Dto.CreateDM_LyDoTrichXuatDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKyLuat.Dto.CreateDM_LyDoKyLuatDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhongXetGiam.Dto.CreateDM_LyDoKhongXetGiamDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhen.Dto.CreateDM_LyDoKhenDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoGiamRPN.Dto.CreateDM_LyDoGiamRPNDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoAnGiam.Dto.CreateDM_LyDoAnGiamDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiTangGiamHinhPhat.Dto.CreateDM_LoaiTangGiamHinhPhatDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQuyetDinhTrichXuat.Dto.CreateDM_LoaiQuyetDinhTrichXuatDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQDTDC.Dto.CreateDM_LoaiQDTDCDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiPhanLoai.Dto.CreateDM_LoaiPhanLoaiDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XepLoaiCaiTao.Dto.CreateDM_KyXepLoaiCaiTaoDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HocVan.Dto.CreateDM_HocVanDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKyLuat.Dto.CreateDM_HinhThucKyLuatDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKhenThuong.Dto.CreateDM_HinhThucKhenThuongDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucChon.Dto.CreateDM_HinhThucChonDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhPhatBoSung.Dto.CreateDM_HinhPhatBoSungDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GioiTinh.Dto.CreateDM_GioiTinhDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GhiChuRieng.Dto.CreateDM_GhiChuRiengDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MasterData.DungChung.Dto.CreateDM_DungChungDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DoTuoi.Dto.CreateDM_DoTuoiDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DanToc.Dto.CreateDM_DanTocDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.CapToaXu.Dto.CreateDM_CapToaXuDto
+DEBUG 2026-01-08 10:07:41,552 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.BenhTat.Dto.CreateDM_BenhTatDto
+INFO  2026-01-08 10:07:42,366 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:07:42,367 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:07:42,505 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2026-01-08 10:07:42,547 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-01-08 10:07:42,547 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-01-08 10:07:42,547 [2    ] Microsoft.Hosting.Lifetime               - Content root path: D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host
+INFO  2026-01-08 10:07:42,615 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 106.0159ms
+INFO  2026-01-08 10:07:42,626 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-01-08 10:07:42,626 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-01-08 10:07:42,628 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript;+charset=utf-8 2.0456ms
+INFO  2026-01-08 10:07:42,644 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 17.8163ms
+INFO  2026-01-08 10:07:42,670 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-01-08 10:07:42,673 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:07:42,687 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller C10.MasterData.Web.Host.Controllers.AntiForgeryController (C10.MasterData.Web.Host).
+INFO  2026-01-08 10:07:42,696 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-01-08 10:07:42,711 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie is executed by an anonymous user in 7 ms from ::1 IP address with succeed.
+INFO  2026-01-08 10:07:42,716 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-01-08 10:07:42,725 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host) in 32.4138ms
+INFO  2026-01-08 10:07:42,725 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:07:42,726 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 55.5262ms
+INFO  2026-01-08 10:07:42,729 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 32.9486ms
+DEBUG 2026-01-08 10:07:52,918 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-01-08 10:07:52,924 [2    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2026-01-08 10:07:52,927 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.Web.Host.Startup.MasterDataWebHostModule, C10.MasterData.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:52,928 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataWebCoreModule, C10.MasterData.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:52,928 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataApplicationModule, C10.MasterData.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:52,928 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataCoreModule, C10.MasterData.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:52,928 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:52,928 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataDomainModule, C10.MasterData.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:52,929 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:52,929 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:52,929 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:52,929 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:52,930 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:52,930 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:52,930 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:52,930 [2    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2026-01-08 10:07:53,032 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: C10.MasterData.EntityFrameworkCore.MasterDataDbContext, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:07:53,155 [2    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2026-01-08 10:07:53,174 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-01-08 10:07:53,177 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: MasterData
+DEBUG 2026-01-08 10:07:53,178 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-01-08 10:07:53,185 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-01-08 10:07:53,195 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2026-01-08 10:07:53,195 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XuLyBat.Dto.CreateDM_XuLyBatDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.TruongHopBat.Dto.CreateDM_TruongHopBatDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuocTich.Dto.CreateDM_QuocTichDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuanHeVoiPhamNhan.Dto.CreateDM_QuanHeVoiPNDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.NgheNghiep.Dto.CreateDM_NgheNghiepDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MucAnPhat.Dto.CreateDM_MucAnPhatDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MaPhanLoai.Dto.CreateDM_MaPhanLoaiDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoTrichXuat.Dto.CreateDM_LyDoTrichXuatDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKyLuat.Dto.CreateDM_LyDoKyLuatDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhongXetGiam.Dto.CreateDM_LyDoKhongXetGiamDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhen.Dto.CreateDM_LyDoKhenDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoGiamRPN.Dto.CreateDM_LyDoGiamRPNDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoAnGiam.Dto.CreateDM_LyDoAnGiamDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiTangGiamHinhPhat.Dto.CreateDM_LoaiTangGiamHinhPhatDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQuyetDinhTrichXuat.Dto.CreateDM_LoaiQuyetDinhTrichXuatDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQDTDC.Dto.CreateDM_LoaiQDTDCDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiPhanLoai.Dto.CreateDM_LoaiPhanLoaiDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XepLoaiCaiTao.Dto.CreateDM_KyXepLoaiCaiTaoDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HocVan.Dto.CreateDM_HocVanDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKyLuat.Dto.CreateDM_HinhThucKyLuatDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKhenThuong.Dto.CreateDM_HinhThucKhenThuongDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucChon.Dto.CreateDM_HinhThucChonDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhPhatBoSung.Dto.CreateDM_HinhPhatBoSungDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GioiTinh.Dto.CreateDM_GioiTinhDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GhiChuRieng.Dto.CreateDM_GhiChuRiengDto
+DEBUG 2026-01-08 10:07:53,197 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MasterData.DungChung.Dto.CreateDM_DungChungDto
+DEBUG 2026-01-08 10:07:53,198 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DoTuoi.Dto.CreateDM_DoTuoiDto
+DEBUG 2026-01-08 10:07:53,198 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DanToc.Dto.CreateDM_DanTocDto
+DEBUG 2026-01-08 10:07:53,198 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.CapToaXu.Dto.CreateDM_CapToaXuDto
+DEBUG 2026-01-08 10:07:53,198 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.BenhTat.Dto.CreateDM_BenhTatDto
+INFO  2026-01-08 10:07:53,964 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:07:53,965 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:07:54,104 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2026-01-08 10:07:54,144 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-01-08 10:07:54,144 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-01-08 10:07:54,144 [2    ] Microsoft.Hosting.Lifetime               - Content root path: D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host
+INFO  2026-01-08 10:07:54,216 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 109.0748ms
+INFO  2026-01-08 10:07:54,229 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-01-08 10:07:54,229 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-01-08 10:07:54,231 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript;+charset=utf-8 2.2125ms
+INFO  2026-01-08 10:07:54,249 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 20.1862ms
+INFO  2026-01-08 10:07:54,272 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-01-08 10:07:54,276 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:07:54,293 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller C10.MasterData.Web.Host.Controllers.AntiForgeryController (C10.MasterData.Web.Host).
+INFO  2026-01-08 10:07:54,316 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-01-08 10:07:54,322 [16   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie is executed by an anonymous user in 9 ms from ::1 IP address with succeed.
+INFO  2026-01-08 10:07:54,329 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-01-08 10:07:54,339 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host) in 40.0145ms
+INFO  2026-01-08 10:07:54,339 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:07:54,340 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 67.9667ms
+INFO  2026-01-08 10:07:54,350 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 33.7186ms
+DEBUG 2026-01-08 10:08:32,445 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-01-08 10:08:32,451 [2    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2026-01-08 10:08:32,454 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.Web.Host.Startup.MasterDataWebHostModule, C10.MasterData.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,455 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataWebCoreModule, C10.MasterData.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,456 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataApplicationModule, C10.MasterData.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,456 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataCoreModule, C10.MasterData.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,456 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,456 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataDomainModule, C10.MasterData.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,457 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,457 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,457 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,457 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,457 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,457 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,458 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,458 [2    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2026-01-08 10:08:32,560 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: C10.MasterData.EntityFrameworkCore.MasterDataDbContext, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:32,700 [2    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2026-01-08 10:08:32,723 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-01-08 10:08:32,726 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: MasterData
+DEBUG 2026-01-08 10:08:32,728 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-01-08 10:08:32,736 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-01-08 10:08:32,746 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2026-01-08 10:08:32,746 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XuLyBat.Dto.CreateDM_XuLyBatDto
+DEBUG 2026-01-08 10:08:32,748 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.TruongHopBat.Dto.CreateDM_TruongHopBatDto
+DEBUG 2026-01-08 10:08:32,748 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuocTich.Dto.CreateDM_QuocTichDto
+DEBUG 2026-01-08 10:08:32,748 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuanHeVoiPhamNhan.Dto.CreateDM_QuanHeVoiPNDto
+DEBUG 2026-01-08 10:08:32,748 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.NgheNghiep.Dto.CreateDM_NgheNghiepDto
+DEBUG 2026-01-08 10:08:32,748 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MucAnPhat.Dto.CreateDM_MucAnPhatDto
+DEBUG 2026-01-08 10:08:32,748 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MaPhanLoai.Dto.CreateDM_MaPhanLoaiDto
+DEBUG 2026-01-08 10:08:32,748 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoTrichXuat.Dto.CreateDM_LyDoTrichXuatDto
+DEBUG 2026-01-08 10:08:32,748 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKyLuat.Dto.CreateDM_LyDoKyLuatDto
+DEBUG 2026-01-08 10:08:32,748 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhongXetGiam.Dto.CreateDM_LyDoKhongXetGiamDto
+DEBUG 2026-01-08 10:08:32,748 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhen.Dto.CreateDM_LyDoKhenDto
+DEBUG 2026-01-08 10:08:32,748 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoGiamRPN.Dto.CreateDM_LyDoGiamRPNDto
+DEBUG 2026-01-08 10:08:32,748 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoAnGiam.Dto.CreateDM_LyDoAnGiamDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiTangGiamHinhPhat.Dto.CreateDM_LoaiTangGiamHinhPhatDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQuyetDinhTrichXuat.Dto.CreateDM_LoaiQuyetDinhTrichXuatDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQDTDC.Dto.CreateDM_LoaiQDTDCDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiPhanLoai.Dto.CreateDM_LoaiPhanLoaiDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XepLoaiCaiTao.Dto.CreateDM_KyXepLoaiCaiTaoDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HocVan.Dto.CreateDM_HocVanDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKyLuat.Dto.CreateDM_HinhThucKyLuatDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKhenThuong.Dto.CreateDM_HinhThucKhenThuongDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucChon.Dto.CreateDM_HinhThucChonDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhPhatBoSung.Dto.CreateDM_HinhPhatBoSungDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GioiTinh.Dto.CreateDM_GioiTinhDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GhiChuRieng.Dto.CreateDM_GhiChuRiengDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MasterData.DungChung.Dto.CreateDM_DungChungDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DoTuoi.Dto.CreateDM_DoTuoiDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DanToc.Dto.CreateDM_DanTocDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.CapToaXu.Dto.CreateDM_CapToaXuDto
+DEBUG 2026-01-08 10:08:32,749 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.BenhTat.Dto.CreateDM_BenhTatDto
+INFO  2026-01-08 10:08:33,559 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:08:33,560 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:08:33,702 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2026-01-08 10:08:33,745 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-01-08 10:08:33,746 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-01-08 10:08:33,746 [2    ] Microsoft.Hosting.Lifetime               - Content root path: D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host
+INFO  2026-01-08 10:08:33,824 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 119.0027ms
+INFO  2026-01-08 10:08:33,836 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-01-08 10:08:33,836 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-01-08 10:08:33,838 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript;+charset=utf-8 2.4465ms
+INFO  2026-01-08 10:08:33,856 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 20.0192ms
+INFO  2026-01-08 10:08:33,906 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-01-08 10:08:33,909 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:08:33,927 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller C10.MasterData.Web.Host.Controllers.AntiForgeryController (C10.MasterData.Web.Host).
+INFO  2026-01-08 10:08:33,934 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-01-08 10:08:33,959 [16   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie is executed by an anonymous user in 11 ms from ::1 IP address with succeed.
+INFO  2026-01-08 10:08:33,965 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-01-08 10:08:33,970 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 35.6105ms
+INFO  2026-01-08 10:08:33,983 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host) in 47.4317ms
+INFO  2026-01-08 10:08:33,983 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:08:33,983 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 77.4485ms
+DEBUG 2026-01-08 10:08:48,821 [2    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2026-01-08 10:08:48,828 [2    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2026-01-08 10:08:48,832 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.Web.Host.Startup.MasterDataWebHostModule, C10.MasterData.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:48,833 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataWebCoreModule, C10.MasterData.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:48,833 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataApplicationModule, C10.MasterData.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:48,833 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataCoreModule, C10.MasterData.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:48,833 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:48,834 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.MasterDataDomainModule, C10.MasterData.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:48,834 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:48,834 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: C10.MasterData.EntityFrameworkCore.MasterDataEntityFrameworkModule, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:48,834 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:48,835 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:48,835 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:48,835 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:48,835 [2    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:48,836 [2    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2026-01-08 10:08:48,945 [2    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: C10.MasterData.EntityFrameworkCore.MasterDataDbContext, C10.MasterData.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2026-01-08 10:08:49,078 [2    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2026-01-08 10:08:49,099 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2026-01-08 10:08:49,101 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: MasterData
+DEBUG 2026-01-08 10:08:49,103 [2    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2026-01-08 10:08:49,110 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2026-01-08 10:08:49,119 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 30 classes define auto mapping attributes
+DEBUG 2026-01-08 10:08:49,119 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XuLyBat.Dto.CreateDM_XuLyBatDto
+DEBUG 2026-01-08 10:08:49,121 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.TruongHopBat.Dto.CreateDM_TruongHopBatDto
+DEBUG 2026-01-08 10:08:49,121 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuocTich.Dto.CreateDM_QuocTichDto
+DEBUG 2026-01-08 10:08:49,121 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.QuanHeVoiPhamNhan.Dto.CreateDM_QuanHeVoiPNDto
+DEBUG 2026-01-08 10:08:49,121 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.NgheNghiep.Dto.CreateDM_NgheNghiepDto
+DEBUG 2026-01-08 10:08:49,121 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MucAnPhat.Dto.CreateDM_MucAnPhatDto
+DEBUG 2026-01-08 10:08:49,121 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MaPhanLoai.Dto.CreateDM_MaPhanLoaiDto
+DEBUG 2026-01-08 10:08:49,121 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoTrichXuat.Dto.CreateDM_LyDoTrichXuatDto
+DEBUG 2026-01-08 10:08:49,121 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKyLuat.Dto.CreateDM_LyDoKyLuatDto
+DEBUG 2026-01-08 10:08:49,121 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhongXetGiam.Dto.CreateDM_LyDoKhongXetGiamDto
+DEBUG 2026-01-08 10:08:49,121 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoKhen.Dto.CreateDM_LyDoKhenDto
+DEBUG 2026-01-08 10:08:49,121 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoGiamRPN.Dto.CreateDM_LyDoGiamRPNDto
+DEBUG 2026-01-08 10:08:49,121 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LyDoAnGiam.Dto.CreateDM_LyDoAnGiamDto
+DEBUG 2026-01-08 10:08:49,121 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiTangGiamHinhPhat.Dto.CreateDM_LoaiTangGiamHinhPhatDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQuyetDinhTrichXuat.Dto.CreateDM_LoaiQuyetDinhTrichXuatDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiQDTDC.Dto.CreateDM_LoaiQDTDCDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.LoaiPhanLoai.Dto.CreateDM_LoaiPhanLoaiDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.XepLoaiCaiTao.Dto.CreateDM_KyXepLoaiCaiTaoDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HocVan.Dto.CreateDM_HocVanDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKyLuat.Dto.CreateDM_HinhThucKyLuatDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucKhenThuong.Dto.CreateDM_HinhThucKhenThuongDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhThucChon.Dto.CreateDM_HinhThucChonDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.HinhPhatBoSung.Dto.CreateDM_HinhPhatBoSungDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GioiTinh.Dto.CreateDM_GioiTinhDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.GhiChuRieng.Dto.CreateDM_GhiChuRiengDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.MasterData.DungChung.Dto.CreateDM_DungChungDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DoTuoi.Dto.CreateDM_DoTuoiDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.DanToc.Dto.CreateDM_DanTocDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.CapToaXu.Dto.CreateDM_CapToaXuDto
+DEBUG 2026-01-08 10:08:49,122 [2    ] Abp.AutoMapper.AbpAutoMapperModule       - C10.BenhTat.Dto.CreateDM_BenhTatDto
+INFO  2026-01-08 10:08:50,021 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:08:50,023 [2    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: 
+INFO  2026-01-08 10:08:50,168 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/index.html - - -
+INFO  2026-01-08 10:08:50,212 [2    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2026-01-08 10:08:50,212 [2    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2026-01-08 10:08:50,212 [2    ] Microsoft.Hosting.Lifetime               - Content root path: D:\ETC\SourceCode_07012026\C10-QLPN\C10.MasterData\src\C10.MasterData.Web.Host
+INFO  2026-01-08 10:08:50,292 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/index.html - 200 - text/html;charset=utf-8 117.9644ms
+INFO  2026-01-08 10:08:50,300 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_vs/browserLink - - -
+INFO  2026-01-08 10:08:50,300 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2026-01-08 10:08:50,303 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_framework/aspnetcore-browser-refresh.js - 200 16531 application/javascript;+charset=utf-8 2.8236ms
+INFO  2026-01-08 10:08:50,320 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 19.8499ms
+INFO  2026-01-08 10:08:50,373 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - - -
+INFO  2026-01-08 10:08:50,377 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:08:50,391 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller C10.MasterData.Web.Host.Controllers.AntiForgeryController (C10.MasterData.Web.Host).
+INFO  2026-01-08 10:08:50,397 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - - -
+INFO  2026-01-08 10:08:50,417 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie is executed by an anonymous user in 9 ms from ::1 IP address with succeed.
+INFO  2026-01-08 10:08:50,422 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2026-01-08 10:08:50,428 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 31.0693ms
+INFO  2026-01-08 10:08:50,434 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host) in 35.1454ms
+INFO  2026-01-08 10:08:50,434 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'C10.MasterData.Web.Host.Controllers.AntiForgeryController.SetCookie (C10.MasterData.Web.Host)'
+INFO  2026-01-08 10:08:50,434 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44311/AntiForgery/SetCookie - 200 - application/json;+charset=utf-8 61.2473ms
